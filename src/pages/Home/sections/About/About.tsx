@@ -10,23 +10,13 @@ import {
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import styled from "@mui/system/styled";
-import { useInView } from "react-intersection-observer";
 
 const AboutSection = styled("div")(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
   padding: theme.spacing(6, 0),
 }));
 
-const AnimatedCard = styled(Card)(({ inView }) => ({
-  transform: inView ? "translateY(0)" : "translateY(100px)",
-  opacity: inView ? 1 : 0,
-  transition: "transform 0.5s ease-out, opacity 0.5s ease-out",
-}));
-
 const About = () => {
-  const [ref1, inView1] = useInView({ triggerOnce: true });
-  const [ref2, inView2] = useInView({ triggerOnce: true });
-
   const skills = [
     "JavaScript",
     "TypeScript",
@@ -48,25 +38,25 @@ const About = () => {
           Sobre Mim
         </Typography>
         <Grid container spacing={4} justifyContent="center">
-          <Grid item xs={12} md={4} ref={ref1}>
-            <AnimatedCard inView={inView1}>
+          <Grid item xs={12} md={4}>
+            <Card>
               <CardContent>
                 <WorkIcon fontSize="large" />
                 <Typography variant="h6">Experience</Typography>
                 <Typography>2+ years</Typography>
                 <Typography>Frontend Development</Typography>
               </CardContent>
-            </AnimatedCard>
+            </Card>
           </Grid>
-          <Grid item xs={12} md={4} ref={ref2}>
-            <AnimatedCard inView={inView2}>
+          <Grid item xs={12} md={4}>
+            <Card>
               <CardContent>
                 <SchoolIcon fontSize="large" />
                 <Typography variant="h6">Education</Typography>
                 <Typography>Graduação Senac Pernambuco</Typography>
                 <Typography>Análise e Desenvolvimento de Sistemas</Typography>
               </CardContent>
-            </AnimatedCard>
+            </Card>
           </Grid>
         </Grid>
         <Typography variant="body1" align="center" paragraph>

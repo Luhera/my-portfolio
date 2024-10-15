@@ -1,13 +1,13 @@
 import { AppBar, MenuItem, Toolbar, styled } from "@mui/material";
 
 const NavBar = () => {
-  const StyledToolbar = styled(Toolbar)(({ theme }) => ({
+  const StyledToolbar = styled(Toolbar)(() => ({
     display: "flex",
     justifyContent: "space-evenly",
   }));
 
   // Função para rolar até a seção correspondente
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
