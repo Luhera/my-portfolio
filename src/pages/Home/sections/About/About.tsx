@@ -81,7 +81,7 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Meu Vídeo de Apresentação 1
+                    Em construção
                   </Typography>
                   <iframe
                     width="100%"
@@ -96,7 +96,7 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Meu Vídeo de Apresentação 2
+                    Em construção
                   </Typography>
                   <iframe
                     width="100%"
