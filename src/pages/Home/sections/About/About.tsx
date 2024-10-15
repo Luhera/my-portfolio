@@ -81,12 +81,12 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Em construção
+                    Video
                   </Typography>
                   <iframe
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/seu_video_aqui_1"
+                    src="https://youtu.be/guD_um1lPxI"
                     title="Vídeo de Apresentação 1"
                     frameBorder="0"
                     allowFullScreen
