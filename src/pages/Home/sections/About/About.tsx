@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Container,
   Typography,
@@ -81,12 +82,12 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Video
+                    Video em português
                   </Typography>
                   <iframe
                     width="100%"
                     height="315"
-                    src="https://youtu.be/guD_um1lPxI"
+                    src="https://www.youtube.com/embed/JDjyWKFJ6Oo"
                     title="Vídeo de Apresentação 1"
                     frameBorder="0"
                     allowFullScreen
