@@ -26,20 +26,20 @@ const ProjectsSection = styled("div")(({ theme }) => ({
 const ProjectsSectionComponent = () => {
   const projects = [
     {
-      title: "Desafio- Frot-End",
+      title: "Challenge- Frot-End",
       date: "Jul 2024 - Jul 2024",
       description:
-        "The blog, é um projeto realizado para mostrar minhas habilidades em next.js, CSS, HTML e Javascript.",
+        "The blog is a project carried out to show my skills in next.js, CSS, HTML and Javascript.",
       technologies: "Next.js,Tailwind CSS,Typescript,JavaScript,HTML,Vercel",
       image: Projeto01, // Usando a imagem importada
       projectLink: "https://desafio-front-end-six.vercel.app/", // Link para o projeto online
       codeLink: "https://github.com/Luhera/Desafio-FrontEnd?tab=readme-ov-file", // Link para o código no GitHub
     },
     {
-      title: "Análise de Acidentes de Trânsito em Belo Horizonte",
+      title: "Analysis of Traffic Accidents in Belo Horizonte",
       date: "Jan 2024 - Mar 2024",
       description:
-        "Outro exemplo de projeto com diferentes tecnologias, Data Science, Faculdade Senac PE ",
+        "Another example of a project with different technologies, Data Science, Faculdade Senac PE ",
       technologies: "Python,Dash,Plotly,Pandas,Jupyter Notebook",
       image: Projeto02, // Outra foto ou caminho para a imagem
       projectLink: "", // Link para o segundo projeto online
@@ -56,7 +56,7 @@ const ProjectsSectionComponent = () => {
           gutterBottom
           color="primary.contrastText"
         >
-          Projetos
+          Projects
         </Typography>
         <Grid container spacing={4}>
           {projects.map((project, index) => (

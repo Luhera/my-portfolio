@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Container,
   Typography,
@@ -36,7 +35,7 @@ const About = () => {
     <AboutSection id="about">
       <Container maxWidth="md">
         <Typography variant="h3" align="center" gutterBottom>
-          Sobre Mim
+          About Me
         </Typography>
         <Grid container spacing={4} justifyContent="center">
           <Grid item xs={12} md={4}>
@@ -54,17 +53,16 @@ const About = () => {
               <CardContent>
                 <SchoolIcon fontSize="large" />
                 <Typography variant="h6">Education</Typography>
-                <Typography>Graduação Senac Pernambuco</Typography>
-                <Typography>Análise e Desenvolvimento de Sistemas</Typography>
+                <Typography>Senac Pernambuco Graduation</Typography>
+                <Typography>Systems Analysis and Development</Typography>
               </CardContent>
             </Card>
           </Grid>
         </Grid>
         <Typography variant="body1" align="center" paragraph>
-          Me chamo Anderson, tenho 25 anos, desenvolvedor front-end com
-          experiência em projetos utilizando linguagens HTML, CSS, JavaScript,
-          React e Vue, tenho interesse em atuar como desenvolvedor frontend
-          junior.
+          My name is Anderson, I'm 25 years old, front-end developer with
+          experience in projects using HTML, CSS, JavaScript, React and Vue, I'm
+          interested in working as a frontend developer junior.
           <Box
             sx={{
               padding: 4,
@@ -76,13 +74,13 @@ const About = () => {
             }}
           >
             <Typography variant="h4" gutterBottom>
-              Vídeos de Apresentação
+              Presentation Videos
             </Typography>
             <Grid container spacing={4} justifyContent="center">
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Video em português
+                    Videos in Portuguese
                   </Typography>
                   <iframe
                     width="100%"
@@ -97,7 +95,7 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Em construção
+                    Under construction
                   </Typography>
                   <iframe
                     width="100%"

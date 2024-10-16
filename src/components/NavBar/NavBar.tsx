@@ -17,10 +17,10 @@ const NavBar = () => {
   return (
     <AppBar position="absolute">
       <StyledToolbar>
-        <MenuItem onClick={() => scrollToSection("about")}>Sobre</MenuItem>
+        <MenuItem onClick={() => scrollToSection("about")}>About me</MenuItem>
         <MenuItem onClick={() => scrollToSection("skills")}>Skills</MenuItem>
         <MenuItem onClick={() => scrollToSection("projects")}>
-          Projetos
+          Projects
         </MenuItem>
       </StyledToolbar>
     </AppBar>
