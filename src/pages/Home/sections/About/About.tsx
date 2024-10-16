@@ -60,9 +60,11 @@ const About = () => {
           </Grid>
         </Grid>
         <Typography variant="body1" align="center" paragraph>
-          My name is Anderson, I'm 25 years old, front-end developer with
-          experience in projects using HTML, CSS, JavaScript, React and Vue, I'm
-          interested in working as a frontend developer junior.
+          <Typography>
+            My name is Anderson, I'm 25 years old, front-end developer with
+            experience in projects using HTML, CSS, JavaScript, React and Vue,
+            I'm interested in working as a frontend developer junior.
+          </Typography>
           <Box
             sx={{
               padding: 4,
