@@ -82,7 +82,7 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Videos in Portuguese
+                    Video in Portuguese
                   </Typography>
                   <iframe
                     width="100%"
@@ -97,12 +97,12 @@ const About = () => {
               <Grid item xs={12} md={5}>
                 <Paper elevation={3} sx={{ padding: 2 }}>
                   <Typography variant="h5" gutterBottom>
-                    Under construction
+                    Video in English
                   </Typography>
                   <iframe
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/seu_video_aqui_2"
+                    src="https://www.youtube.com/embed/2jkv-QqOI90"
                     title="Vídeo de Apresentação 2"
                     frameBorder="0"
                     allowFullScreen
