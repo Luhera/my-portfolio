@@ -17,7 +17,7 @@ const NavBar = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const StyledToolbar = styled(Toolbar)(({ theme }) => ({
+  const StyledToolbar = styled(Toolbar)(() => ({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -37,7 +37,7 @@ const NavBar = () => {
     },
   }));
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
