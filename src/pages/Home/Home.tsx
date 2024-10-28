@@ -1,7 +1,7 @@
 import NavBar from "../../components/NavBar/NavBar";
 import AboutMe from "./sections/About/About";
 import Hero from "./sections/Hero/Hero";
-import ProjectsSection from "./sections/Projects/Projetcts";
+import ProjectsSection from "./sections/Projects/Projects";
 
 const Home = () => {
   return (
