@@ -170,7 +170,6 @@ const About = () => {
                   height="315"
                   src="https://www.youtube.com/embed/JDjyWKFJ6Oo"
                   title="Vídeo de Apresentação 1"
-                  frameBorder="0"
                   allowFullScreen
                 ></iframe>
               </Paper>
@@ -185,14 +184,12 @@ const About = () => {
                   height="315"
                   src="https://www.youtube.com/embed/2jkv-QqOI90"
                   title="Vídeo de Apresentação 2"
-                  frameBorder="0"
                   allowFullScreen
                 ></iframe>
               </Paper>
             </Grid>
           </Grid>
 
-          {/* Cube Skills Section */}
           <Typography id="skills" variant="h4" align="center" gutterBottom>
             Skills
           </Typography>

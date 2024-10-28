@@ -54,7 +54,6 @@ const NavBar = () => {
       style={{ backgroundColor: "#1a1a1a", borderRadius: "50px" }}
     >
       <StyledToolbar>
-        {/* Menu à esquerda */}
         <div style={{ display: "flex", alignItems: "center" }}>
           {!isMobile && (
             <div style={{ display: "flex" }}>
@@ -74,10 +73,8 @@ const NavBar = () => {
           )}
         </div>
 
-        {/* Logo no lado direito */}
         <StyledLogo src={logo} alt="Logo" />
 
-        {/* Ícone de menu para mobile */}
         {isMobile && (
           <IconButton edge="end" color="inherit" onClick={toggleMobileMenu}>
             <MenuIcon />
@@ -85,7 +82,6 @@ const NavBar = () => {
         )}
       </StyledToolbar>
 
-      {/* Menu Mobile */}
       <Drawer
         anchor="right"
         open={isMobileOpen}
